@@ -1,4 +1,4 @@
-# CCNA_OSPF_Packet_Tracer
+# CCNA OSPF LABS
 Welcome to the OSPF Labs repository! This project is dedicated to enhancing our understanding of OSPF (Open Shortest Path First) through a series of progressively complex labs.
 
 ## Overview
