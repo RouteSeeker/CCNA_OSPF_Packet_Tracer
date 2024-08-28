@@ -7,28 +7,28 @@ This journal documents the step-by-step configuration of an OSPF lab using Cisco
 ## Lab Setup
 ### Devices
 #### Routers:
-R1: Cisco 2811 (Telephony enabled)
-R2: Cisco 2811 (Telephony enabled)
-R3: Cisco 4331
+- R1: Cisco 2811 (Telephony enabled)
+- R2: Cisco 2811 (Telephony enabled)
+- R3: Cisco 4331
 #### Switches:
-SW1: Cisco 2960 (Connected to R1)
-SW2: Cisco 2960 (Connected to R2)
-SW3: Cisco 2960 (Connected to R3)
+- SW1: Cisco 2960 (Connected to R1)
+- SW2: Cisco 2960 (Connected to R2)
+- SW3: Cisco 2960 (Connected to R3)
 #### Phones and PCs:
-SW1: 4 iPhones (with PCs connected to each), 6 PCs (3 in OPERATIONS VLAN, 3 in FINANCE VLAN)
-SW2: 4 iPhones (with PCs connected to each)
-SW3: PCs distributed across VLANs
+- SW1: 4 iPhones (with PCs connected to each), 6 PCs (3 in OPERATIONS VLAN, 3 in FINANCE VLAN)
+- SW2: 4 iPhones (with PCs connected to each)
+- SW3: PCs distributed across VLANs
 
 ### Network Configuration
-R1 (Connected to SW1):
+- R1 (Connected to SW1):
 
 VLAN 50 (SALES): 10.0.50.0/24
 VLAN 55 (VOICE): 10.0.55.0/24
-R2 (Connected to SW2):
+- R2 (Connected to SW2):
 
 VLAN 40 (MARKETING): 10.0.40.0/24
 VLAN 44 (VOICE): 10.0.44.0/24
-R3 (Connected to SW3):
+- R3 (Connected to SW3):
 
 VLAN 10 (OPERATIONS): 10.0.10.0/24
 VLAN 20 (FINANCE): 10.0.20.0/24
